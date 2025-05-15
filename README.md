@@ -1,23 +1,45 @@
-# 🌸 Iris Dataset – Exploratory Data Analysis (EDA)
+# 🌸 Iris Dataset – Data Analysis
 
-In this notebook, I explore the famous **Iris dataset** using Python and foundational statistics. This analysis covers data inspection, descriptive statistics, and interpretation of results.
+This notebook demonstrates an **end-to-end exploratory data science project** using the classic **Iris dataset**. It covers everything from dataset inspection to statistical analysis, visual exploration, and supervised machine learning.
 
 > **Author:** André Lopes Marinho  
-> **Goal:** Apply descriptive statistical techniques and communicate findings clearly using code, markdown, and visualizations.
+> **Goal:** Showcase core data science skills through analysis, statistics, visualization, and predictive modeling using Python.
 
 ---
 
 ## 📚 Learning Objectives
 
-By the end of this notebook, you will understand:
+### 🧾 Data Understanding
+- Loading structured data with `pandas`
+- Inspecting data with `.info()`, `.describe()`, `.value_counts()`
 
-- ✅ How to inspect and understand a real-world dataset using `pandas`
-- ✅ How to compute key descriptive statistics:
-  - Mean, Median, Mode
-  - Variance, Standard Deviation
-- ✅ The differences between **sample** and **population** statistics
-- ✅ How to interpret these metrics to identify useful features
-- ✅ How to structure a clean and readable data science notebook
+### 📈 Descriptive Statistics
+- Mean, median, mode
+- Variance, standard deviation
+- Distribution interpretation
+
+### 📊 Data Visualization
+- Histograms + KDE plots
+- Boxplots, Violin plots
+- Pairplots (feature relationships)
+- Visual pattern recognition for feature usefulness
+
+### 📐 Statistical Inference
+- Hypothesis formulation
+- Two-sample **t-tests**
+- **P-values** and confidence intervals
+- Verifying visual differences statistically
+
+### 🧠 Machine Learning
+- Data prep and train/test split
+- Supervised classification:
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)
+  - Decision Trees
+- Evaluation metrics:
+  - Accuracy
+  - Confusion matrix
+  - Precision, recall, F1-score
 
 ---
 
@@ -29,10 +51,11 @@ The **Iris dataset** is a classic in machine learning and statistics. It include
 - *Iris virginica*
 
 Each sample includes four numeric features:
-- `sepal_length`
-- `sepal_width`
-- `petal_length`
-- `petal_width`
+  - Sepal length
+  - Sepal width
+  - Petal length
+  - Petal width
+  - Species (Setosa, Versicolor, Virginica)
 
 📥 **Source:**  
 Dataset from Seaborn: [iris.csv](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv)
