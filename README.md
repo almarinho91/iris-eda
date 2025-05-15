@@ -33,25 +33,14 @@ The notebook `iris_eda.ipynb` includes:
 ### ✅ Key Results
 
 - **Best feature for classification:** petal length & petal width
-- **Highest accuracy:** KNN (100% on test set), Logistic Regression (97%)
+- **Highest accuracy:** Logistic Regression (97%) and KNN (97%) on test set
 - **Setosa** is perfectly separable; Versicolor and Virginica overlap slightly
 - Visual and statistical insights are consistent
 
 ---
 
-## ▶️ How to Run It
-
-### 1. Clone this repo
-
-```bash
-git clone https://github.com/yourusername/iris-eda.git
-cd iris-eda
-
-
 📥 **Source:**  
 Dataset from Seaborn: [iris.csv](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv)
-
----
 
 ## 🛠️ Installation & Environment Setup
 
