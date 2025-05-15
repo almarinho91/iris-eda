@@ -1,61 +1,52 @@
-# 🌸 Iris Dataset – Data Analysis
+# 🌸 Iris Dataset – Data Science and analysis
 
-This notebook demonstrates an **end-to-end exploratory data science project** using the classic **Iris dataset**. It covers everything from dataset inspection to statistical analysis, visual exploration, and supervised machine learning.
+This project is a complete walkthrough of the **data science workflow** using the classic Iris flower dataset. It includes data inspection, statistics, visualizations, hypothesis testing, and classification with machine learning models — all presented in a clean, well-documented notebook.
 
 > **Author:** André Lopes Marinho  
-> **Goal:** Showcase core data science skills through analysis, statistics, visualization, and predictive modeling using Python.
+> **Goal:** Build and explain a data science pipeline from data exploration to predictive modeling using Python.
 
 ---
 
-## 📚 Learning Objectives
+## 📘 What's Inside the Notebook
 
-### 🧾 Data Understanding
-- Loading structured data with `pandas`
-- Inspecting data with `.info()`, `.describe()`, `.value_counts()`
+The notebook `iris_eda.ipynb` includes:
 
-### 📈 Descriptive Statistics
-- Mean, median, mode
-- Variance, standard deviation
-- Distribution interpretation
+### 🧠 Analysis & Exploration
 
-### 📊 Data Visualization
-- Histograms + KDE plots
-- Boxplots, Violin plots
-- Pairplots (feature relationships)
-- Visual pattern recognition for feature usefulness
+- Dataset structure and inspection with `pandas`
+- Descriptive statistics: mean, median, mode, variance, std deviation
+- Visual exploration using histograms, boxplots, violin plots, pairplots
 
 ### 📐 Statistical Inference
-- Hypothesis formulation
-- Two-sample **t-tests**
-- **P-values** and confidence intervals
-- Verifying visual differences statistically
 
-### 🧠 Machine Learning
-- Data prep and train/test split
-- Supervised classification:
-  - Logistic Regression
-  - K-Nearest Neighbors (KNN)
-  - Decision Trees
-- Evaluation metrics:
-  - Accuracy
-  - Confusion matrix
-  - Precision, recall, F1-score
+- Two-sample t-tests
+- Confidence intervals
+- Insights into feature differences between species
+
+### 🤖 Machine Learning
+
+- Feature selection and model training
+- Logistic Regression, K-Nearest Neighbors, Decision Tree
+- Evaluation with accuracy, confusion matrix, and classification report
+- 5-fold cross-validation for generalization
+
+### ✅ Key Results
+
+- **Best feature for classification:** petal length & petal width
+- **Highest accuracy:** KNN (100% on test set), Logistic Regression (97%)
+- **Setosa** is perfectly separable; Versicolor and Virginica overlap slightly
+- Visual and statistical insights are consistent
 
 ---
 
-## 📊 Dataset Overview
+## ▶️ How to Run It
 
-The **Iris dataset** is a classic in machine learning and statistics. It includes **150 samples** from **three iris species**:
-- *Iris setosa*
-- *Iris versicolor*
-- *Iris virginica*
+### 1. Clone this repo
 
-Each sample includes four numeric features:
-  - Sepal length
-  - Sepal width
-  - Petal length
-  - Petal width
-  - Species (Setosa, Versicolor, Virginica)
+```bash
+git clone https://github.com/yourusername/iris-eda.git
+cd iris-eda
+
 
 📥 **Source:**  
 Dataset from Seaborn: [iris.csv](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv)
