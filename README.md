@@ -1,6 +1,6 @@
 # 🌸 Iris Dataset – Exploratory Data Analysis (EDA)
 
-Welcome to the first project in my data science learning portfolio. In this notebook, I explore the famous **Iris dataset** using Python and foundational statistics. This analysis covers data inspection, descriptive statistics, and interpretation of results.
+In this notebook, I explore the famous **Iris dataset** using Python and foundational statistics. This analysis covers data inspection, descriptive statistics, and interpretation of results.
 
 > **Author:** André Lopes Marinho  
 > **Goal:** Apply descriptive statistical techniques and communicate findings clearly using code, markdown, and visualizations.
