@@ -1,4 +1,4 @@
-# 🌸 Iris Dataset – Data Science and analysis
+# Iris Dataset – Data Science and analysis
 
 This project is a complete walkthrough of the **data science workflow** using the classic Iris flower dataset. It includes data inspection, statistics, visualizations, hypothesis testing, and classification with machine learning models — all presented in a clean, well-documented notebook.
 
@@ -7,30 +7,30 @@ This project is a complete walkthrough of the **data science workflow** using th
 
 ---
 
-## 📘 What's Inside the Notebook
+## What's Inside the Notebook
 
 The notebook `iris_eda.ipynb` includes:
 
-### 🧠 Analysis & Exploration
+### Analysis & Exploration
 
 - Dataset structure and inspection with `pandas`
 - Descriptive statistics: mean, median, mode, variance, std deviation
 - Visual exploration using histograms, boxplots, violin plots, pairplots
 
-### 📐 Statistical Inference
+### Statistical Inference
 
 - Two-sample t-tests
 - Confidence intervals
 - Insights into feature differences between species
 
-### 🤖 Machine Learning
+### Machine Learning
 
 - Feature selection and model training
 - Logistic Regression, K-Nearest Neighbors, Decision Tree
 - Evaluation with accuracy, confusion matrix, and classification report
 - 5-fold cross-validation for generalization
 
-### ✅ Key Results
+### Key Results
 
 - **Best feature for classification:** petal length & petal width
 - **Highest accuracy:** Logistic Regression (97%) and KNN (97%) on test set
@@ -39,10 +39,10 @@ The notebook `iris_eda.ipynb` includes:
 
 ---
 
-📥 **Source:**  
+**Source:**  
 Dataset from Seaborn: [iris.csv](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv)
 
-## 🛠️ Installation & Environment Setup
+## Installation & Environment Setup
 
 To run this project locally, follow the steps below.
 
